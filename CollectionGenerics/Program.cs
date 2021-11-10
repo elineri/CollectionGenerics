@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CollectionGenerics
 {
@@ -6,6 +7,9 @@ namespace CollectionGenerics
     {
         static void Main(string[] args)
         {
+            Stack<Employee> EmpSta = new Stack<Employee>();
+
+
         }
     }
 }
