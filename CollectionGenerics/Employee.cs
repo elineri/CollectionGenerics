@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CollectionGenerics
 {
-    class Employee
+    public class Employee
     {
         public int ID { get; set; }
         public string Name { get; set; }
