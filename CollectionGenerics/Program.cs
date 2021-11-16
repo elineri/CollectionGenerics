@@ -107,6 +107,8 @@ namespace CollectionGenerics
             {
                 Console.WriteLine("Emp3 finns inte i stack");
             }
+            Console.WriteLine("---------------------------");
+
 
             // LIST
             List<Employee> Employees = new List<Employee>();
@@ -115,6 +117,15 @@ namespace CollectionGenerics
             Employees.Add(E3);
             Employees.Add(E4);
             Employees.Add(E5);
+
+            if (Employees.Contains(E2))
+            {
+                Console.WriteLine("Employee2 object exist in the list");
+            }
+            else
+            {
+                Console.WriteLine("Emplyee2 object does not exist in the list");
+            }
         }
     }
 }
