@@ -108,7 +108,13 @@ namespace CollectionGenerics
                 Console.WriteLine("Emp3 finns inte i stack");
             }
 
-
+            // LIST
+            List<Employee> Employees = new List<Employee>();
+            Employees.Add(E1);
+            Employees.Add(E2);
+            Employees.Add(E3);
+            Employees.Add(E4);
+            Employees.Add(E5);
         }
     }
 }
